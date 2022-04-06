@@ -1,0 +1,166 @@
+@font-face{
+    font-family: spiderman;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: spiderman;
+}
+
+.contenue{
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+nav{
+    background-color: #f1c530;
+    padding: 20px 0;
+}
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul li{
+    margin-left: 70px;
+    font-size: 20px;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+
+.héros{
+    background-image: url("./Illustration/img7.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.héros div{
+    color: #ffffff;
+}
+.héros .titre{
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.héros .description{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.héros .box{
+    position: relative;
+    top: 25%;
+}
+
+.top-section{
+    background-color: #f1c530;
+    
+}
+.contenuebox{
+    padding: 50PX;
+}
+.top-section .top{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-section .top .top-héro{
+    border: 2px solid #000000;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 300px;
+    height: 550px;
+    margin: 20px;
+}
+
+.top-section .top .top-héro .top-image{
+
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.top-section .top .top-héro  .top-image-1{
+background-image: url(./Illustration/img8.png);
+}
+
+.top-section .top .top-héro  .top-image-2{
+    background-image: url(./Illustration/img9.png);
+    }
+
+    .top-section .top .top-héro  .top-image-3{
+        background-image: url(./Illustration/img10.png);
+        }
+
+.top-section .top .top-héro .top-contenue{
+    margin: 15px;
+    font-size: 15px;
+} 
+.top-section .top .top-héro .top-titre{
+    text-align: center;
+    font-weight: bold;
+}
+.top-section .top .top-héro  p{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.top-section .top .top-héro span{
+    font-weight: bold;
+}
+ 
+footer{
+    background-color: #000000;
+}
+.F{
+    padding: 50PX;
+}
+
+.info{
+    display: flex;
+    
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.logo{
+    text-align: center;
+    justify-content: space-between;
+}
+footer{
+    padding-top: 8%;
+ 
+}
+.medias{
+    padding-top: 5%;
+}
+.info{
+    margin-left: 5%;
+}
+.fin{
+    text-align: center;
+}

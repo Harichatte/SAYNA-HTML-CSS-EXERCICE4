@@ -1,0 +1,88 @@
+@font-face{
+    font-family: spiderman;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: spiderman;   
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    background-color: #B11313;
+}
+
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50PX;
+}
+
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul li{
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.super{
+    background-image: url("./Illustration/img35.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50PX;
+}
+.super div{
+    color: #ffffff;
+    padding-top: 10%;
+}
+footer{
+    background-color: #000000;
+}
+.F{
+    padding: 50PX;
+}
+
+.info{
+    display: flex;
+    
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.logo{
+    text-align: center;
+    justify-content: space-between;
+}
+footer{
+    padding-top: 8%;
+ 
+}
+.medias{
+    padding-top: 5%;
+}
+.info{
+    margin-left: 5%;
+}
+.fin{
+    text-align: center;
+}
