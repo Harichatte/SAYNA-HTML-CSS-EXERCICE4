@@ -1,0 +1,142 @@
+@font-face{
+    font-family: spiderman;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: spiderman;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    background-color: #B11313;
+}
+
+nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50PX;
+}
+
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu ul li{
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.spiderman{
+    background-color: #F1C530;
+    background-size: cover;
+    margin-top: 0px;
+    display: flex;
+}
+.image{
+    padding-left: 550px;
+}
+.A{
+         padding: 50PX;
+         color: #ffffff;
+       
+}
+.antenne{
+    background-color: #B11313;
+}
+.B{
+         padding: 50PX;  
+         color: #ffffff;
+         
+}
+.image2{
+    padding: 50PX;
+}
+
+.apropos{
+    display: flex;
+
+}
+.formulaire{
+    margin-left: 15px;
+    text-align: right;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+.saynamarvel{
+    background-color: #114C92;
+}
+.C{
+    padding: 50PX; 
+    color: #ffffff;
+}
+.texte{
+    display: flex;
+    color: #ffffff;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.col1{
+    margin-right: 7%;
+}
+.e{
+    display: flex;
+    padding-left: 150px;
+   
+}
+footer{
+    background-color: #000000;
+}
+.F{
+    padding: 50PX;
+}
+
+.info{
+    display: flex;
+    
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.logo{
+    text-align: center;
+    justify-content: space-between;
+}
+footer{
+    padding-top: 8%;
+ 
+}
+.medias{
+    padding-top: 5%;
+}
+.info{
+    margin-left: 5%;
+}
+.fin{
+    text-align: center;
+}
+
+
+   
